@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <div>
-        <BrowserRouter basename="/Priya_Singh">
+        <BrowserRouter basename={process.env.PUBCIC_URL} >
          <div className="border border-gray-500">
 
           <Navbar />
