@@ -6,7 +6,8 @@ import path from "path"
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/Priya-Singh/",
+  base: "/psingh/",
+
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/psingh-research/Priya-Singh",
+  "homepage": "https://psingh-research.github.io/Priya-Singh",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",

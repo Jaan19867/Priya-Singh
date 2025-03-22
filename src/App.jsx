@@ -11,12 +11,10 @@ function App() {
   return (
     <>
       <div>
-        <BrowserRouter basename={process.env.PUBCIC_URL} >
-         <div className="border border-gray-500">
-
-          <Navbar />
-          
-         </div>
+        <BrowserRouter basename="/Priya-Singh">
+          <div className="border border-gray-500">
+            <Navbar />
+          </div>
           <Routes>
             <Route path="/" element={<Home />}></Route>
             <Route path="/home" element={<Home />}></Route>
